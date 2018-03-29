@@ -1,10 +1,10 @@
 let total = 0
-for (let i = 0; i < 9999999; i++) {
-
-	// total = total + negativePositive(total)
+for (let i = 0; i < 999; i++) {
+	total = total + negativePositive(total)
 	// total = total + reciprocal(i)
 	// total = total + sumFraction(i)
 }
+console.log('total:', total)
 
 // 1/1 + 1/2 + 1/3 + 1/n+1
 // answer: Infinity
